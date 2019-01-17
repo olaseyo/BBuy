@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BestBuy - FAQs</title>
+  <link href="assets/css/app.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/styles/all-themes.css" rel="stylesheet">
+</head>
+<body class="light">
+  <div class="page-loader-wrapper">
+    <div class="loader">
+      <div class="m-t-30">
+        <img class="loading-img-spin" src="assets/images/loading.png" width="20" height="20" alt="admin">
+      </div>
+      <p>Please wait...</p>
+    </div>
+  </div>
+  <div class="overlay"></div>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+          aria-expanded="false"></a>
+        <a href="javascript:void(0);" class="bars"></a>
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo.png" alt="" />
+          <span class="logo-name">BestBuy</span>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="pull-left">
+          <li>
+            <a href="javascript:void(0);" class="sidemenu-collapse">
+              <i class="material-icons">reorder</i>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="fullscreen">
+            <a href="javascript:;" class="fullscreen-btn">
+              <i class="fas fa-expand"></i>
+            </a>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+              <i class="far fa-bell"></i>
+              <span class="label-count bg-orange"></span>
+            </a>
+            <ul class="dropdown-menu pullDown">
+              <li class="header">NOTIFICATIONS</li>
+              <li class="body">
+                <ul class="menu">
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user1.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Sarah Smith</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 14 mins ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user2.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Airi Satou</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 22 mins ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user3.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">John Doe</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 3 hours ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user4.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Ashton Cox</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 2 hours ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user5.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Cara Stevens</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 4 hours ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user6.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Charde Marshall</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 3 hours ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user7.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">John Doe</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> Yesterday
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer">
+                <a href="javascript:void(0);">View All Notifications</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown user_profile">
+            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+              <img src="assets/images/user.jpg" width="32" height="32" alt="User">
+            </a>
+            <ul class="dropdown-menu pullDown">
+              <li class="body">
+                <ul class="user_dw_menu">
+                  <li>
+                    <a href="profile.html">
+                      <i class="material-icons">person</i>Profile
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <i class="material-icons">feedback</i>Feedback
+                    </a>
+                  </li>
+                  <li>
+                    <a href="faqs.html">
+                      <i class="material-icons">help</i>Help
+                    </a>
+                  </li>
+                  <li>
+                    <a href="signin.html">
+                      <i class="material-icons">power_settings_new</i>Logout
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="pull-right">
+            <a href="javascript:void(0);" class="js-right-sidebar" data-close="true">
+              <i class="fas fa-cog"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div>
+    <aside id="leftsidebar" class="sidebar">
+      <div class="menu">
+        <ul class="list">
+          <li class="sidebar-user-panel active">
+            <div class="user-panel">
+              <div class="image">
+                <img src="assets/images/usrbig.jpg" class="img-circle user-img-circle" alt="User Image">
+              </div>
+            </div>
+            <div class="profile-usertitle">
+              <div class="sidebar-userpic-name">John Doe</div>
+              <div class="profile-usertitle-job">Manager</div>
+            </div>
+          </li>
+          <li>
+            <a href="index.html">
+              <i class="fas fa-tachometer-alt"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="products.html">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Products</span>
+            </a>
+          </li>
+          <li>
+            <a href="users.html">
+              <i class="fas fa-user-friends"></i>
+              <span>Users</span>
+            </a>
+          </li>
+          <li>
+            <a href="merchants.html">
+              <i class="fas fa-user-tie"></i>
+              <span>Merchants</span>
+            </a>
+          </li>
+          <li>
+            <a href="subscribers.html">
+              <i class="fas fa-mail-bulk"></i>
+              <span>Email Subscribers</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <aside id="rightsidebar" class="right-sidebar">
+      <ul class="nav nav-tabs tab-nav-right" role="tablist">
+        <li role="presentation">
+          <a href="index.html#skins" data-toggle="tab" class="active">SKINS</a>
+        </li>
+        <li role="presentation">
+          <a href="index.html#settings" data-toggle="tab">SETTINGS</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane in active in active stretchLeft" id="skins">
+          <div class="demo-skin">
+            <div class="rightSetting">
+              <p>GENERAL SETTINGS</p>
+              <ul class="setting-list list-unstyled m-t-20">
+                <li>
+                  <div class="form-check">
+                    <div class="form-check m-l-10">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" checked> Save
+                        History
+                        <span class="form-check-sign">
+                          <span class="check"></span>
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <div class="form-check m-l-10">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" checked> Show
+                        Status
+                        <span class="form-check-sign">
+                          <span class="check"></span>
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <div class="form-check m-l-10">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" checked> Auto
+                        Submit Issue
+                        <span class="form-check-sign">
+                          <span class="check"></span>
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <div class="form-check m-l-10">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" checked> Show
+                        Status To All
+                        <span class="form-check-sign">
+                          <span class="check"></span>
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="rightSetting">
+              <p>SIDEBAR MENU COLORS</p>
+              <button type="button" class="btn btn-sidebar-light btn-border-radius p-l-20 p-r-20">Light</button>
+              <button type="button" class="btn btn-sidebar-dark btn-default btn-border-radius p-l-20 p-r-20">Dark</button>
+            </div>
+            <div class="rightSetting">
+              <p>THEME COLORS</p>
+              <button type="button" class="btn btn-theme-light btn-border-radius p-l-20 p-r-20">Light</button>
+              <button type="button" class="btn btn-theme-dark btn-default btn-border-radius p-l-20 p-r-20">Dark</button>
+            </div>
+            <div class="rightSetting">
+              <p>SKINS</p>
+              <ul class="demo-choose-skin choose-theme list-unstyled">
+                <li data-theme="black" class="actived">
+                  <div class="black-theme"></div>
+                </li>
+                <li data-theme="white">
+                  <div class="white-theme white-theme-border"></div>
+                </li>
+                <li data-theme="purple">
+                  <div class="purple-theme"></div>
+                </li>
+                <li data-theme="blue">
+                  <div class="blue-theme"></div>
+                </li>
+                <li data-theme="cyan">
+                  <div class="cyan-theme"></div>
+                </li>
+                <li data-theme="green">
+                  <div class="green-theme"></div>
+                </li>
+                <li data-theme="orange">
+                  <div class="orange-theme"></div>
+                </li>
+              </ul>
+            </div>
+            <div class="rightSetting">
+              <p>Disk Space</p>
+              <div class="sidebar-progress">
+                <div class="progress m-t-20">
+                  <div class="progress-bar l-bg-cyan shadow-style width-per-45" role="progressbar" aria-valuenow="45"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span class="progress-description">
+                  <small>26% remaining</small>
+                </span>
+              </div>
+            </div>
+            <div class="rightSetting">
+              <p>Server Load</p>
+              <div class="sidebar-progress">
+                <div class="progress m-t-20">
+                  <div class="progress-bar l-bg-orange shadow-style width-per-63" role="progressbar" aria-valuenow="63"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span class="progress-description">
+                  <small>Highly Loaded</small>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane stretchRight" id="settings">
+          <div class="demo-settings">
+            <p>GENERAL SETTINGS</p>
+            <ul class="setting-list">
+              <li>
+                <span>Report Panel Usage</span>
+                <div class="switch">
+                  <label>
+                    <input type="checkbox" checked>
+                    <span class="lever switch-col-green"></span>
+                  </label>
+                </div>
+              </li>
+              <li>
+                <span>Email Redirect</span>
+                <div class="switch">
+                  <label>
+                    <input type="checkbox">
+                    <span class="lever switch-col-blue"></span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+            <p>SYSTEM SETTINGS</p>
+            <ul class="setting-list">
+              <li>
+                <span>Notifications</span>
+                <div class="switch">
+                  <label>
+                    <input type="checkbox" checked>
+                    <span class="lever switch-col-purple"></span>
+                  </label>
+                </div>
+              </li>
+              <li>
+                <span>Auto Updates</span>
+                <div class="switch">
+                  <label>
+                    <input type="checkbox" checked>
+                    <span class="lever switch-col-cyan"></span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+            <p>ACCOUNT SETTINGS</p>
+            <ul class="setting-list">
+              <li>
+                <span>Offline</span>
+                <div class="switch">
+                  <label>
+                    <input type="checkbox" checked>
+                    <span class="lever switch-col-red"></span>
+                  </label>
+                </div>
+              </li>
+              <li>
+                <span>Location Permission</span>
+                <div class="switch">
+                  <label>
+                    <input type="checkbox">
+                    <span class="lever switch-col-lime"></span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <section class="content">
+    <div class="container-fluid">
+      <div class="block-header">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <ul class="breadcrumb breadcrumb-style ">
+              <li class="breadcrumb-item">
+                <h4 class="page-title">FAQs</h4>
+              </li>
+              <li class="breadcrumb-item bcrumb-1">
+                <a href="index.html">
+                  <i class="fas fa-home"></i> Home</a>
+              </li>
+              <li class="breadcrumb-item bcrumb-2">
+                <a href="index.html">Dashboard</a>
+              </li>
+              <li class="breadcrumb-item active">FAQs</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row clearfix">
+        <!-- Basic Examples -->
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="card">
+            <div class="header">
+              <h2>
+                <strong>FAQs</strong>
+                <small>Find your solutions from here.</small>
+              </h2>
+              <ul class="header-dropdown m-r--5">
+                <li class="dropdown">
+                  <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                    aria-haspopup="true" aria-expanded="false">
+                    <i class="material-icons">more_vert</i>
+                  </a>
+                  <ul class="dropdown-menu pull-right">
+                    <li>
+                      <a href="javascript:void(0);">Action</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Another action</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="body">
+              <div class="row clearfix">
+                <div class="col-xs-12 ol-sm-12 col-md-12 col-lg-12">
+                  <div class="panel-group" id="accordion_1" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-primary">
+                      <div class="panel-heading" role="tab" id="headingOne_1">
+                        <h4 class="panel-title">
+                          <a role="button" data-toggle="collapse" data-parent="#accordion_1" href="faqs.html#collapseOne_1"
+                            aria-expanded="true" aria-controls="collapseOne_1">
+                            Q1. Anim pariatur cliche reprehenderit?
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseOne_1" class="panel-collapse collapse in show" role="tabpanel" aria-labelledby="headingOne_1">
+                        <div class="panel-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life
+                          accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                          non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                          laborum
+                          eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                          squid
+                          single origin coffee nulla assumenda shoreditchet. Nihil anim
+                          keffiyeh
+                          helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                          proident.
+                          Ad vegan excepteur butcher vice lomo. Nihil anim keffiyeh
+                          helvetica,
+                          craft beer labore wes anderson cred nesciunt sapiente.
+                        </div>
+                        <div class="p-l-20 p-b-20">
+                          <button type="button" class="btn btn-success btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_up</i>
+                          </button>
+                          <button type="button" class="btn btn-danger btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_down</i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-primary">
+                      <div class="panel-heading" role="tab" id="headingThree_11">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_1" href="faqs.html#collapseThree_2"
+                            aria-expanded="false" aria-controls="collapseThree_1">
+                            Q2. It has survived not only five centuries, but also the leap
+                            into?
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseThree_2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree_1">
+                        <div class="panel-body">
+                          Completed my graduation in Arts from the well known and renowned
+                          institution of India – SARDAR PATEL ARTS COLLEGE, BARODA
+                          in 2000-01, which was affiliated to M.S. University. I ranker in
+                          University
+                          exams from the same university from 1996-01.
+                        </div>
+                        <div class="p-l-20 p-b-20">
+                          <button type="button" class="btn btn-success btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_up</i>
+                          </button>
+                          <button type="button" class="btn btn-danger btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_down</i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-primary">
+                      <div class="panel-heading" role="tab" id="headingThree_1">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_1" href="faqs.html#collapseThree_1"
+                            aria-expanded="false" aria-controls="collapseThree_1">
+                            Q3. Worked as Professor and Head of the department at Sarda
+                            Collage?
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseThree_1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree_1">
+                        <div class="panel-body">
+                          Completed my graduation in Arts from the well known and renowned
+                          institution of India – SARDAR PATEL ARTS COLLEGE, BARODA
+                          in 2000-01, which was affiliated to M.S. University. I ranker in
+                          University
+                          exams from the same university from 1996-01.
+                        </div>
+                        <div class="p-l-20 p-b-20">
+                          <button type="button" class="btn btn-success btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_up</i>
+                          </button>
+                          <button type="button" class="btn btn-danger btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_down</i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-primary">
+                      <div class="panel-heading" role="tab" id="headingOne_11">
+                        <h4 class="panel-title">
+                          <a role="button" data-toggle="collapse" data-parent="#accordion_1" href="faqs.html#collapseOne_3"
+                            aria-expanded="true" aria-controls="collapseOne_3">
+                            Q4. It has survived not only five centuries, but also the leap
+                            into?
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseOne_3" class="panel-collapse collapse " role="tabpanel" aria-labelledby="headingOne_1">
+                        <div class="panel-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life
+                          accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                          non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                          laborum
+                          eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                          squid
+                          single origin coffee nulla assumenda shoreditchet. Nihil anim
+                          keffiyeh
+                          helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                          proident.
+                          Ad vegan excepteur butcher vice lomo. Nihil anim keffiyeh
+                          helvetica,
+                          craft beer labore wes anderson cred nesciunt sapiente.
+                        </div>
+                        <div class="p-l-20 p-b-20">
+                          <button type="button" class="btn btn-success btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_up</i>
+                          </button>
+                          <button type="button" class="btn btn-danger btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_down</i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-primary">
+                      <div class="panel-heading" role="tab" id="headingTwo_1">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_1" href="faqs.html#collapseOne_4"
+                            aria-expanded="false" aria-controls="collapseOne_4">
+                            Q5. Worked as Professor and Head of the department?
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseOne_4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo_1">
+                        <div class="panel-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life
+                          accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                          non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                          laborum
+                          eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                          squid
+                          single origin coffee nulla assumenda shoreditchet. Nihil anim
+                          keffiyeh
+                          helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                          proident.
+                          Ad vegan excepteur butcher vice lomo. Nihil anim keffiyeh
+                          helvetica,
+                          craft beer labore wes anderson cred nesciunt sapiente.
+                        </div>
+                        <div class="p-l-20 p-b-20">
+                          <button type="button" class="btn btn-success btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_up</i>
+                          </button>
+                          <button type="button" class="btn btn-danger btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_down</i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-primary">
+                      <div class="panel-heading" role="tab" id="headingTwo_11">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_1" href="faqs.html#collapseOne_5"
+                            aria-expanded="false" aria-controls="collapseOne_5">
+                            Q6. It has survived not only five centuries, but also the leap
+                            into?
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseOne_5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo_1">
+                        <div class="panel-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life
+                          accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                          non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                          laborum
+                          eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                          squid
+                          single origin coffee nulla assumenda shoreditchet. Nihil anim
+                          keffiyeh
+                          helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                          proident.
+                          Ad vegan excepteur butcher vice lomo. Nihil anim keffiyeh
+                          helvetica,
+                          craft beer labore wes anderson cred nesciunt sapiente.
+                        </div>
+                        <div class="p-l-20 p-b-20">
+                          <button type="button" class="btn btn-success btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_up</i>
+                          </button>
+                          <button type="button" class="btn btn-danger btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_down</i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-primary">
+                      <div class="panel-heading" role="tab" id="headingTwo_12">
+                        <h4 class="panel-title">
+                          <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion_1" href="faqs.html#collapseOne_6"
+                            aria-expanded="false" aria-controls="collapseOne_6">
+                            Q7. Completed my graduation in Arts from the well known?
+                          </a>
+                        </h4>
+                      </div>
+                      <div id="collapseOne_6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo_1">
+                        <div class="panel-body">
+                          Anim pariatur cliche reprehenderit, enim eiusmod high life
+                          accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                          non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt
+                          laborum
+                          eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                          squid
+                          single origin coffee nulla assumenda shoreditchet. Nihil anim
+                          keffiyeh
+                          helvetica, craft beer labore wes anderson cred nesciunt sapiente ea
+                          proident.
+                          Ad vegan excepteur butcher vice lomo. Nihil anim keffiyeh
+                          helvetica,
+                          craft beer labore wes anderson cred nesciunt sapiente.
+                        </div>
+                        <div class="p-l-20 p-b-20">
+                          <button type="button" class="btn btn-success btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_up</i>
+                          </button>
+                          <button type="button" class="btn btn-danger btn-circle waves-effect waves-circle waves-float">
+                            <i class="material-icons">thumb_down</i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- #END# Basic Examples -->
+      </div>
+    </div>
+  </section>
+  <script src="assets/js/app.min.js"></script>
+  <script src="assets/js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="meta description">
+
+  <!-- Site title -->
+  <title>BestBuy - Cart</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+
+  <!-- Bootstrap CSS -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font-Awesome CSS -->
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+  <!-- helper class css -->
+  <link href="assets/css/helper.min.css" rel="stylesheet">
+  <!-- Plugins CSS -->
+  <link href="assets/css/plugins.css" rel="stylesheet">
+
+  <!-- Main Style CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/skin-default.css" rel="stylesheet" id="galio-skin">
+</head>
+
+<body>
+  <div class="wrapper box-layout">
+    <!-- header area start -->
+    <header>
+      <!-- header top start -->
+      <div class="header-top-area bg-gray text-center text-md-left">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-5">
+              <div class="header-call-action">
+                <a href="index.html">
+                  <i class="fa fa-envelope"></i>
+                  info@bestbuy.com
+                </a>
+                <a href="index.html">
+                  <i class="fa fa-phone"></i>
+                  +2348158486068
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-7">
+              <div class="header-top-right float-md-right float-none">
+                <nav>
+                  <ul>
+                    <li>
+                      <div class="dropdown header-top-dropdown">
+                        <a class="dropdown-toggle" id="myaccount" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false">
+                          my account
+                          <i class="fa fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="myaccount">
+                          <a class="dropdown-item" href="my-account.html">my account</a>
+                          <a class="dropdown-item" href="login-register.html"> login</a>
+                          <a class="dropdown-item" href="login-register.html">register</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="wishlist.html">my wishlist</a>
+                    </li>
+                    <li>
+                      <a href="cart.html">my cart</a>
+                    </li>
+                    <li>
+                      <a href="checkout.html">checkout</a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header top end -->
+
+      <!-- header middle start -->
+      <div class="header-middle-area pt-20 pb-20">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-3">
+              <div class="brand-logo">
+                <a href="index.html">
+                  <h1>BestBuy</h1>
+                </a>
+              </div>
+            </div> <!-- end logo area -->
+            <div class="col-lg-9">
+              <div class="header-middle-right">
+                <div class="header-middle-shipping mb-20">
+                  <div class="single-block-shipping">
+                    <div class="shipping-icon">
+                      <i class="fa fa-clock-o"></i>
+                    </div>
+                    <div class="shipping-content">
+                      <h5>Working time</h5>
+                      <span>Mon- Sun: 8.00 - 18.00</span>
+                    </div>
+                  </div> <!-- end single shipping -->
+                  <div class="single-block-shipping">
+                    <div class="shipping-icon">
+                      <i class="fa fa-truck"></i>
+                    </div>
+                    <div class="shipping-content">
+                      <h5>free shipping</h5>
+                      <span>On order over ₦20000</span>
+                    </div>
+                  </div> <!-- end single shipping -->
+                  <div class="single-block-shipping">
+                    <div class="shipping-icon">
+                      <i class="fa fa-money"></i>
+                    </div>
+                    <div class="shipping-content">
+                      <h5>money back 100%</h5>
+                      <span>Within 30 Days after delivery</span>
+                    </div>
+                  </div> <!-- end single shipping -->
+                </div>
+                <div class="header-middle-block">
+                  <div class="header-middle-searchbox">
+                    <input type="text" placeholder="Search...">
+                    <button class="search-btn"><i class="fa fa-search"></i></button>
+                  </div>
+                  <div class="header-mini-cart">
+                    <div class="mini-cart-btn">
+                      <i class="fa fa-shopping-cart"></i>
+                      <span class="cart-notification">2</span>
+                    </div>
+                    <div class="cart-total-price">
+                      <span>total</span>
+                      ₦1100.00
+                    </div>
+                    <ul class="cart-list">
+                      <li>
+                        <div class="cart-img">
+                          <a href="product-details.html"><img src="assets/img/cart/cart-1.jpg" alt=""></a>
+                        </div>
+                        <div class="cart-info">
+                          <h4><a href="product-details.html">simple product 09</a></h4>
+                          <span>₦600.00</span>
+                        </div>
+                        <div class="del-icon">
+                          <i class="fa fa-times"></i>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="cart-img">
+                          <a href="product-details.html"><img src="assets/img/cart/cart-2.jpg" alt=""></a>
+                        </div>
+                        <div class="cart-info">
+                          <h4><a href="product-details.html">virtual product 10</a></h4>
+                          <span>₦500.00</span>
+                        </div>
+                        <div class="del-icon">
+                          <i class="fa fa-times"></i>
+                        </div>
+                      </li>
+                      <li class="mini-cart-price">
+                        <span class="subtotal">subtotal : </span>
+                        <span class="subtotal-price">₦1100.00</span>
+                      </li>
+                      <li class="checkout-btn">
+                        <a href="checkout.html">checkout</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- header middle end -->
+
+      <!-- main menu area start -->
+      <div class="main-header-wrapper bdr-bottom1">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="main-header-inner">
+                <div class="category-toggle-wrap">
+                  <div class="category-toggle">
+                    category
+                    <div class="cat-icon">
+                      <i class="fa fa-angle-down"></i>
+                    </div>
+                  </div>
+                  <nav class="category-menu category-style-2">
+                    <ul>
+                      <li><a href="shop.html"><i class="fa fa-desktop"></i> computer</a></li>
+                      <li class="menu-item-has-children"><a href="shop.html"><i class="fa fa-camera"></i>
+                          camera</a>
+                        <!-- Mega Category Menu Start -->
+                        <ul class="category-mega-menu">
+                          <li class="menu-item-has-children">
+                            <a href="shop.html">Smartphone</a>
+                            <ul>
+                              <li><a href="shop.html">Samsome</a></li>
+                              <li><a href="shop.html">GL Stylus</a></li>
+                              <li><a href="shop.html">Uawei</a></li>
+                              <li><a href="shop.html">Cherry Berry</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-item-has-children">
+                            <a href="shop.html">headphone</a>
+                            <ul>
+                              <li><a href="shop.html">Desktop Headphone</a></li>
+                              <li><a href="shop.html">Mobile Headphone</a></li>
+                              <li><a href="shop.html">Wireless Headphone</a></li>
+                              <li><a href="shop.html">LED Headphone</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-item-has-children">
+                            <a href="shop.html">accessories</a>
+                            <ul>
+                              <li><a href="shop.html">Power Bank</a></li>
+                              <li><a href="shop.html">Data Cable</a></li>
+                              <li><a href="shop.html">Power Cable</a></li>
+                              <li><a href="shop.html">Battery</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-item-has-children">
+                            <a href="shop.html">headphone</a>
+                            <ul>
+                              <li><a href="shop.html">Desktop Headphone</a></li>
+                              <li><a href="shop.html">Mobile Headphone</a></li>
+                              <li><a href="shop.html">Wireless Headphone</a></li>
+                              <li><a href="shop.html">LED Headphone</a></li>
+                            </ul>
+                          </li>
+                        </ul><!-- Mega Category Menu End -->
+                      </li>
+                      <li class="menu-item-has-children"><a href="shop.html"><i class="fa fa-book"></i>
+                          smart phones</a>
+                        <!-- Mega Category Menu Start -->
+                        <ul class="category-mega-menu">
+                          <li class="menu-item-has-children">
+                            <a href="shop.html">Smartphone</a>
+                            <ul>
+                              <li><a href="shop.html">Samsome</a></li>
+                              <li><a href="shop.html">GL Stylus</a></li>
+                              <li><a href="shop.html">Uawei</a></li>
+                              <li><a href="shop.html">Cherry Berry</a></li>
+                              <li><a href="shop.html">uPhone</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-item-has-children">
+                            <a href="shop.html">headphone</a>
+                            <ul>
+                              <li><a href="shop.html">Desktop Headphone</a></li>
+                              <li><a href="shop.html">Mobile Headphone</a></li>
+                              <li><a href="shop.html">Wireless Headphone</a></li>
+                              <li><a href="shop.html">LED Headphone</a></li>
+                              <li><a href="shop.html">Over-ear</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-item-has-children">
+                            <a href="shop.html">accessories</a>
+                            <ul>
+                              <li><a href="shop.html">Power Bank</a></li>
+                              <li><a href="shop.html">Data Cable</a></li>
+                              <li><a href="shop.html">Power Cable</a></li>
+                              <li><a href="shop.html">Battery</a></li>
+                              <li><a href="shop.html">OTG Cable</a></li>
+                            </ul>
+                          </li>
+                          <li class="menu-item-has-children">
+                            <a href="shop.html">accessories</a>
+                            <ul>
+                              <li><a href="shop.html">Power Bank</a></li>
+                              <li><a href="shop.html">Data Cable</a></li>
+                              <li><a href="shop.html">Power Cable</a></li>
+                              <li><a href="shop.html">Battery</a></li>
+                              <li><a href="shop.html">OTG Cable</a></li>
+                            </ul>
+                          </li>
+                        </ul><!-- Mega Category Menu End -->
+                      </li>
+                      <li><a href="shop.html"><i class="fa fa-clock-o"></i> watch</a></li>
+                      <li><a href="shop.html"><i class="fa fa-television"></i> electronic</a></li>
+                      <li><a href="shop.html"><i class="fa fa-tablet"></i> tablet</a></li>
+                      <li><a href="shop.html"><i class="fa fa-book"></i> books</a></li>
+                      <li><a href="shop.html"><i class="fa fa-microchip"></i> microchip</a></li>
+                      <li><a href="shop.html"><i class="fa fa-bullhorn"></i> bullhorn</a></li>
+                    </ul>
+                  </nav>
+                </div>
+                <div class="main-menu">
+                  <nav id="mobile-menu">
+                    <ul>
+                      <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+                      <li class="active"><a href="shop.html">Shop</a></li>
+                      <li><a href="career.html">Career</a></li>
+                      <li><a href="blog.html">Blog</a></li>
+                      <li><a href="contact-us.html">Contact us</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 d-block d-lg-none">
+              <div class="mobile-menu"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- main menu area end -->
+    </header>
+    <!-- header area end -->
+
+    <!-- breadcrumb area start -->
+    <div class="breadcrumb-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="breadcrumb-wrap">
+              <nav aria-label="breadcrumb">
+                <ul class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                  <li class="breadcrumb-item"><a href="shop.html">shop</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">cart</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- breadcrumb area end -->
+
+    <!-- cart main wrapper start -->
+    <div class="cart-main-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <!-- Cart Table Area -->
+            <div class="cart-table table-responsive">
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th class="pro-thumbnail">Thumbnail</th>
+                    <th class="pro-title">Product</th>
+                    <th class="pro-price">Price</th>
+                    <th class="pro-quantity">Quantity</th>
+                    <th class="pro-subtotal">Total</th>
+                    <th class="pro-remove">Remove</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="pro-thumbnail"><a href="cart.html#"><img class="img-fluid" src="assets/img/product/product-img2.jpg"
+                          alt="Product" /></a></td>
+                    <td class="pro-title"><a href="cart.html#">k2 snowboard 2018</a></td>
+                    <td class="pro-price"><span>₦295.00</span></td>
+                    <td class="pro-quantity">
+                      <div class="pro-qty"><input type="text" value="1"></div>
+                    </td>
+                    <td class="pro-subtotal"><span>₦295.00</span></td>
+                    <td class="pro-remove"><a href="cart.html#"><i class="fa fa-trash-o"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td class="pro-thumbnail"><a href="cart.html#"><img class="img-fluid" src="assets/img/product/product-img3.jpg"
+                          alt="Product" /></a></td>
+                    <td class="pro-title"><a href="cart.html#">Aquet Drone D 420</a></td>
+                    <td class="pro-price"><span>₦275.00</span></td>
+                    <td class="pro-quantity">
+                      <div class="pro-qty"><input type="text" value="2"></div>
+                    </td>
+                    <td class="pro-subtotal"><span>₦550.00</span></td>
+                    <td class="pro-remove"><a href="cart.html#"><i class="fa fa-trash-o"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td class="pro-thumbnail"><a href="cart.html#"><img class="img-fluid" src="assets/img/product/product-img4.jpg"
+                          alt="Product" /></a></td>
+                    <td class="pro-title"><a href="cart.html#">berzerker snowboard</a></td>
+                    <td class="pro-price"><span>₦295.00</span></td>
+                    <td class="pro-quantity">
+                      <div class="pro-qty">
+                        <input type="text" value="1" />
+                      </div>
+                    </td>
+                    <td class="pro-subtotal"><span>₦295.00</span></td>
+                    <td class="pro-remove"><a href="cart.html#"><i class="fa fa-trash-o"></i></a></td>
+                  </tr>
+                  <tr>
+                    <td class="pro-thumbnail"><a href="cart.html#"><img class="img-fluid" src="assets/img/product/product-img5.jpg"
+                          alt="Product" /></a></td>
+                    <td class="pro-title"><a href="cart.html#">element snowboard</a></td>
+                    <td class="pro-price"><span>₦110.00</span></td>
+                    <td class="pro-quantity">
+                      <div class="pro-qty">
+                        <input type="text" value="3" />
+                      </div>
+                    </td>
+                    <td class="pro-subtotal"><span>₦110.00</span></td>
+                    <td class="pro-remove"><a href="cart.html#"><i class="fa fa-trash-o"></i></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <!-- Cart Update Option -->
+            <div class="cart-update-option d-block d-md-flex justify-content-between">
+              <div class="apply-coupon-wrapper">
+                <form action="cart.html#" method="post" class=" d-block d-md-flex">
+                  <input type="text" placeholder="Enter Your Coupon Code" required />
+                  <button class="sqr-btn">Apply Coupon</button>
+                </form>
+              </div>
+              <div class="cart-update mt-sm-16">
+                <a href="cart.html#" class="sqr-btn">Update Cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5 ml-auto">
+            <!-- Cart Calculation Area -->
+            <div class="cart-calculator-wrapper">
+              <div class="cart-calculate-items">
+                <h3>Cart Totals</h3>
+                <div class="table-responsive">
+                  <table class="table">
+                    <tr>
+                      <td>Sub Total</td>
+                      <td>₦230</td>
+                    </tr>
+                    <tr>
+                      <td>Shipping</td>
+                      <td>₦70</td>
+                    </tr>
+                    <tr class="total">
+                      <td>Total</td>
+                      <td class="total-amount">₦300</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <a href="checkout.html" class="sqr-btn d-block">Proceed To Checkout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- cart main wrapper end -->
+
+    <!-- brand area start -->
+    <div class="brand-area pt-34 pb-30">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title mb-30">
+              <div class="title-icon">
+                <i class="fa fa-crop"></i>
+              </div>
+              <h3>Popular Brand</h3>
+            </div> <!-- section title end -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="brand-active slick-padding slick-arrow-style">
+              <div class="brand-item text-center">
+                <a href="cart.html#"><img src="assets/img/brand/br1.png" alt=""></a>
+              </div>
+              <div class="brand-item text-center">
+                <a href="cart.html#"><img src="assets/img/brand/br2.png" alt=""></a>
+              </div>
+              <div class="brand-item text-center">
+                <a href="cart.html#"><img src="assets/img/brand/br3.png" alt=""></a>
+              </div>
+              <div class="brand-item text-center">
+                <a href="cart.html#"><img src="assets/img/brand/br4.png" alt=""></a>
+              </div>
+              <div class="brand-item text-center">
+                <a href="cart.html#"><img src="assets/img/brand/br5.png" alt=""></a>
+              </div>
+              <div class="brand-item text-center">
+                <a href="cart.html#"><img src="assets/img/brand/br6.png" alt=""></a>
+              </div>
+              <div class="brand-item text-center">
+                <a href="cart.html#"><img src="assets/img/brand/br4.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- brand area end -->
+
+    <!-- footer area start -->
+    <footer>
+      <!-- footer top start -->
+      <div class="footer-top bg-black pt-14 pb-14">
+        <div class="container">
+          <div class="footer-top-wrapper">
+            <div class="newsletter__wrap">
+              <div class="newsletter__title">
+                <div class="newsletter__icon">
+                  <i class="fa fa-envelope"></i>
+                </div>
+                <div class="newsletter__content">
+                  <h3>sign up for newsletter</h3>
+                </div>
+              </div>
+              <div class="newsletter__box">
+                <form id="mc-form">
+                  <input type="email" id="mc-email" autocomplete="off" placeholder="Email">
+                  <button id="mc-submit">subscribe!</button>
+                </form>
+              </div>
+              <!-- mailchimp-alerts Start -->
+              <div class="mailchimp-alerts">
+                <div class="mailchimp-submitting"></div><!-- mailchimp-submitting end -->
+                <div class="mailchimp-success"></div><!-- mailchimp-success end -->
+                <div class="mailchimp-error"></div><!-- mailchimp-error end -->
+              </div>
+              <!-- mailchimp-alerts end -->
+            </div>
+            <div class="social-icons">
+              <a href="index-4.html#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook"></i></a>
+              <a href="index-4.html#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter"></i></a>
+              <a href="index-4.html#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="fa fa-instagram"></i></a>
+              <a href="index-4.html#" data-toggle="tooltip" data-placement="top" title="Google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="index-4.html#" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="fa fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer top end -->
+
+      <!-- footer main start -->
+      <div class="footer-widget-area pt-40 pb-38 pb-sm-4 pt-sm-30">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="footer-widget mb-sm-26">
+                <div class="widget-title mb-10 mb-sm-6">
+                  <h4>contact us</h4>
+                </div>
+                <div class="widget-body">
+                  <ul class="location">
+                    <li><i class="fa fa-envelope"></i>info@bestbuy.com</li>
+                    <li><i class="fa fa-phone"></i>(234) 8158 486 068</li>
+                    <li><i class="fa fa-map-marker"></i>Address: 15 - Bode Thomas Street, Surulere. Lagos</li>
+                  </ul>
+                  <a class="map-btn" href="contact-us.html">open in google map</a>
+                </div>
+              </div> <!-- single widget end -->
+            </div> <!-- single widget column end -->
+            <div class="col-md-3 col-sm-6">
+              <div class="footer-widget mb-sm-26">
+                <div class="widget-title mb-10 mb-sm-6">
+                  <h4>my account</h4>
+                </div>
+                <div class="widget-body">
+                  <ul>
+                    <li><a href="my-account.html">my account</a></li>
+                    <li><a href="cart.html">my cart</a></li>
+                    <li><a href="checkout.html">checkout</a></li>
+                    <li><a href="wishlist.html">my wishlist</a></li>
+                    <li><a href="login-register.html">login</a></li>
+                  </ul>
+                </div>
+              </div> <!-- single widget end -->
+            </div> <!-- single widget column end -->
+            <div class="col-md-3 col-sm-6">
+              <div class="footer-widget mb-sm-26">
+                <div class="widget-title mb-10 mb-sm-6">
+                  <h4>quick links</h4>
+                </div>
+                <div class="widget-body">
+                  <ul>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact-us.html">Contact Us</a></li>
+                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="terms.html">Terms & Conditions</a></li>
+                  </ul>
+                </div>
+              </div> <!-- single widget end -->
+            </div> <!-- single widget column end -->
+            <div class="col-md-3 col-sm-6">
+              <div class="footer-widget mb-sm-26">
+                <div class="widget-title mb-10 mb-sm-6">
+                  <h4>product tags</h4>
+                </div>
+                <div class="widget-body">
+                  <ul>
+                    <li><a href="shop.html">computer</a></li>
+                    <li><a href="shop.html">camera</a></li>
+                    <li><a href="shop.html">smart phone</a></li>
+                    <li><a href="shop.html">watch</a></li>
+                    <li><a href="shop.html">tablet</a></li>
+                  </ul>
+                </div>
+              </div> <!-- single widget end -->
+            </div> <!-- single widget column end -->
+          </div>
+        </div>
+      </div>
+      <!-- footer main end -->
+
+      <!-- footer bootom start -->
+      <div class="footer-bottom-area bg-gray pt-20 pb-20">
+        <div class="container">
+          <div class="footer-bottom-wrap">
+            <div class="copyright-text">
+              <p>Copyright (C) 2019 <a href="index.html">BestBuy.com</a> All Rights Reserved.</p>
+            </div>
+            <div class="payment-method-img">
+              <img src="assets/img/payment.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer bootom end -->
+    </footer>
+    <!-- footer area end -->
+  </div>
+
+  <!-- Scroll to top start -->
+  <div class="scroll-top not-visible">
+    <i class="fa fa-angle-up"></i>
+  </div>
+  <!-- Scroll to Top End -->
+
+  <!--All jQuery, Third Party Plugins & Activation (main.js) Files-->
+  <script src="assets/js/vendor/modernizr-3.6.0.min.js"></script>
+  <!-- Jquery Min Js -->
+  <script src="assets/js/vendor/jquery-3.3.1.min.js"></script>
+  <!-- Popper Min Js -->
+  <script src="assets/js/vendor/popper.min.js"></script>
+  <!-- Bootstrap Min Js -->
+  <script src="assets/js/vendor/bootstrap.min.js"></script>
+  <!-- Plugins Js-->
+  <script src="assets/js/plugins.js"></script>
+  <!-- Ajax Mail Js -->
+  <script src="assets/js/ajax-mail.js"></script>
+  <!-- Active Js -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BestBuy - Merchants</title>
+  <link href="assets/css/app.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/styles/all-themes.css" rel="stylesheet">
+</head>
+<body class="light">
+  <div class="page-loader-wrapper">
+    <div class="loader">
+      <div class="m-t-30">
+        <img class="loading-img-spin" src="assets/images/loading.png" width="20" height="20" alt="admin">
+      </div>
+      <p>Please wait...</p>
+    </div>
+  </div>
+  <div class="overlay"></div>
+  <nav class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"
+          aria-expanded="false"></a>
+        <a href="javascript:void(0);" class="bars"></a>
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/images/logo.png" alt="" />
+          <span class="logo-name">BestBuy</span>
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="pull-left">
+          <li>
+            <a href="javascript:void(0);" class="sidemenu-collapse">
+              <i class="material-icons">reorder</i>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="fullscreen">
+            <a href="javascript:;" class="fullscreen-btn">
+              <i class="fas fa-expand"></i>
+            </a>
+          </li>
+          <li class="dropdown">
+            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+              <i class="far fa-bell"></i>
+              <span class="label-count bg-orange"></span>
+            </a>
+            <ul class="dropdown-menu pullDown">
+              <li class="header">NOTIFICATIONS</li>
+              <li class="body">
+                <ul class="menu">
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user1.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Sarah Smith</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 14 mins ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user2.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Airi Satou</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 22 mins ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user3.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">John Doe</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 3 hours ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user4.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Ashton Cox</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 2 hours ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user5.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Cara Stevens</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 4 hours ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user6.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">Charde Marshall</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> 3 hours ago
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <span class="table-img msg-user">
+                        <img src="assets/images/user/user7.jpg" alt="">
+                      </span>
+                      <span class="menu-info">
+                        <span class="menu-title">John Doe</span>
+                        <span class="menu-desc">
+                          <i class="material-icons">access_time</i> Yesterday
+                        </span>
+                        <span class="menu-desc">Please check your email.</span>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer">
+                <a href="javascript:void(0);">View All Notifications</a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown user_profile">
+            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+              <img src="assets/images/user.jpg" width="32" height="32" alt="User">
+            </a>
+            <ul class="dropdown-menu pullDown">
+              <li class="body">
+                <ul class="user_dw_menu">
+                  <li>
+                    <a href="profile.html">
+                      <i class="material-icons">person</i>Profile
+                    </a>
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);">
+                      <i class="material-icons">feedback</i>Feedback
+                    </a>
+                  </li>
+                  <li>
+                    <a href="faqs.html">
+                      <i class="material-icons">help</i>Help
+                    </a>
+                  </li>
+                  <li>
+                    <a href="signin.html">
+                      <i class="material-icons">power_settings_new</i>Logout
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="pull-right">
+            <a href="javascript:void(0);" class="js-right-sidebar" data-close="true">
+              <i class="fas fa-cog"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div>
+    <aside id="leftsidebar" class="sidebar">
+      <div class="menu">
+        <ul class="list">
+          <li class="sidebar-user-panel active">
+            <div class="user-panel">
+              <div class="image">
+                <img src="assets/images/usrbig.jpg" class="img-circle user-img-circle" alt="User Image">
+              </div>
+            </div>
+            <div class="profile-usertitle">
+              <div class="sidebar-userpic-name">John Doe</div>
+              <div class="profile-usertitle-job">Manager</div>
+            </div>
+          </li>
+          <li>
+            <a href="index.html">
+              <i class="fas fa-tachometer-alt"></i>
+              <span>Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="products.html">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Products</span>
+            </a>
+          </li>
+          <li>
+            <a href="users.html">
+              <i class="fas fa-user-friends"></i>
+              <span>Users</span>
+            </a>
+          </li>
+          <li class="active">
+            <a href="merchants.html">
+              <i class="fas fa-user-tie"></i>
+              <span>Merchants</span>
+            </a>
+          </li>
+          <li>
+            <a href="subscribers.html">
+              <i class="fas fa-mail-bulk"></i>
+              <span>Email Subscribers</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <aside id="rightsidebar" class="right-sidebar">
+      <ul class="nav nav-tabs tab-nav-right" role="tablist">
+        <li role="presentation">
+          <a href="index.html#skins" data-toggle="tab" class="active">SKINS</a>
+        </li>
+        <li role="presentation">
+          <a href="index.html#settings" data-toggle="tab">SETTINGS</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane in active in active stretchLeft" id="skins">
+          <div class="demo-skin">
+            <div class="rightSetting">
+              <p>GENERAL SETTINGS</p>
+              <ul class="setting-list list-unstyled m-t-20">
+                <li>
+                  <div class="form-check">
+                    <div class="form-check m-l-10">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" checked> Save
+                        History
+                        <span class="form-check-sign">
+                          <span class="check"></span>
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <div class="form-check m-l-10">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" checked> Show
+                        Status
+                        <span class="form-check-sign">
+                          <span class="check"></span>
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <div class="form-check m-l-10">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" checked> Auto
+                        Submit Issue
+                        <span class="form-check-sign">
+                          <span class="check"></span>
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="form-check">
+                    <div class="form-check m-l-10">
+                      <label class="form-check-label">
+                        <input class="form-check-input" type="checkbox" value="" checked> Show
+                        Status To All
+                        <span class="form-check-sign">
+                          <span class="check"></span>
+                        </span>
+                      </label>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="rightSetting">
+              <p>SIDEBAR MENU COLORS</p>
+              <button type="button" class="btn btn-sidebar-light btn-border-radius p-l-20 p-r-20">Light</button>
+              <button type="button" class="btn btn-sidebar-dark btn-default btn-border-radius p-l-20 p-r-20">Dark</button>
+            </div>
+            <div class="rightSetting">
+              <p>THEME COLORS</p>
+              <button type="button" class="btn btn-theme-light btn-border-radius p-l-20 p-r-20">Light</button>
+              <button type="button" class="btn btn-theme-dark btn-default btn-border-radius p-l-20 p-r-20">Dark</button>
+            </div>
+            <div class="rightSetting">
+              <p>SKINS</p>
+              <ul class="demo-choose-skin choose-theme list-unstyled">
+                <li data-theme="black" class="actived">
+                  <div class="black-theme"></div>
+                </li>
+                <li data-theme="white">
+                  <div class="white-theme white-theme-border"></div>
+                </li>
+                <li data-theme="purple">
+                  <div class="purple-theme"></div>
+                </li>
+                <li data-theme="blue">
+                  <div class="blue-theme"></div>
+                </li>
+                <li data-theme="cyan">
+                  <div class="cyan-theme"></div>
+                </li>
+                <li data-theme="green">
+                  <div class="green-theme"></div>
+                </li>
+                <li data-theme="orange">
+                  <div class="orange-theme"></div>
+                </li>
+              </ul>
+            </div>
+            <div class="rightSetting">
+              <p>Disk Space</p>
+              <div class="sidebar-progress">
+                <div class="progress m-t-20">
+                  <div class="progress-bar l-bg-cyan shadow-style width-per-45" role="progressbar" aria-valuenow="45"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span class="progress-description">
+                  <small>26% remaining</small>
+                </span>
+              </div>
+            </div>
+            <div class="rightSetting">
+              <p>Server Load</p>
+              <div class="sidebar-progress">
+                <div class="progress m-t-20">
+                  <div class="progress-bar l-bg-orange shadow-style width-per-63" role="progressbar" aria-valuenow="63"
+                    aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <span class="progress-description">
+                  <small>Highly Loaded</small>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div role="tabpanel" class="tab-pane stretchRight" id="settings">
+          <div class="demo-settings">
+            <p>GENERAL SETTINGS</p>
+            <ul class="setting-list">
+              <li>
+                <span>Report Panel Usage</span>
+                <div class="switch">
+                  <label>
+                    <input type="checkbox" checked>
+                    <span class="lever switch-col-green"></span>
+                  </label>
+                </div>
+              </li>
+              <li>
+                <span>Email Redirect</span>
+                <div class="switch">
+                  <label>
+                    <input type="checkbox">
+                    <span class="lever switch-col-blue"></span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+            <p>SYSTEM SETTINGS</p>
+            <ul class="setting-list">
+              <li>
+                <span>Notifications</span>
+                <div class="switch">
+                  <label>
+                    <input type="checkbox" checked>
+                    <span class="lever switch-col-purple"></span>
+                  </label>
+                </div>
+              </li>
+              <li>
+                <span>Auto Updates</span>
+                <div class="switch">
+                  <label>
+                    <input type="checkbox" checked>
+                    <span class="lever switch-col-cyan"></span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+            <p>ACCOUNT SETTINGS</p>
+            <ul class="setting-list">
+              <li>
+                <span>Offline</span>
+                <div class="switch">
+                  <label>
+                    <input type="checkbox" checked>
+                    <span class="lever switch-col-red"></span>
+                  </label>
+                </div>
+              </li>
+              <li>
+                <span>Location Permission</span>
+                <div class="switch">
+                  <label>
+                    <input type="checkbox">
+                    <span class="lever switch-col-lime"></span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+  <section class="content">
+    <div class="container-fluid">
+      <div class="block-header">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <ul class="breadcrumb breadcrumb-style ">
+              <li class="breadcrumb-item">
+                <h4 class="page-title">Merchants</h4>
+              </li>
+              <li class="breadcrumb-item bcrumb-1">
+                <a href="index.html">
+                  <i class="fas fa-home"></i> Home</a>
+              </li>
+              <li class="breadcrumb-item bcrumb-2">
+                <a href="index.html">Dashboard</a>
+              </li>
+              <li class="breadcrumb-item active">Merchants</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+          <div class="card">
+            <div class="header">
+              <h2>
+                <strong>Support</strong> Tickets
+              </h2>
+              <ul class="header-dropdown m-r--5">
+                <li class="dropdown">
+                  <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                    aria-haspopup="true" aria-expanded="false">
+                    <i class="material-icons">more_vert</i>
+                  </a>
+                  <ul class="dropdown-menu pull-right">
+                    <li>
+                      <a href="javascript:void(0);">Action</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Another action</a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0);">Something else here</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="body">
+              <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                  <div class="support-box text-center l-bg-red">
+                    <div class="icon m-b-10">
+                      <div class="chart chart-bar">6,4,8,6,8,10,5,6,7,9,5,6,4,8,6,8,10,5,6,7,9,5</div>
+                    </div>
+                    <div class="text m-b-10">Total Ticket</div>
+                    <h3 class="m-b-0">1512
+                      <i class="material-icons">trending_up</i>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="support-box text-center l-bg-cyan">
+                    <div class="icon m-b-10">
+                      <span class="chart chart-line">9,4,6,5,6,4,7,3</span>
+                    </div>
+                    <div class="text m-b-10">Reply</div>
+                    <h3 class="m-b-0">1236
+                      <i class="material-icons">trending_up</i>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="support-box text-center l-bg-orange">
+                    <div class="icon m-b-10">
+                      <div class="chart chart-pie">30, 35, 25, 8</div>
+                    </div>
+                    <div class="text m-b-10">Resolve</div>
+                    <h3 class="m-b-0">1107
+                      <i class="material-icons">trending_down</i>
+                    </h3>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                  <div class="support-box text-center green">
+                    <div class="icon m-b-10">
+                      <div class="chart chart-bar">4,6,-3,-1,2,-2,4,3,6,7,-2,3,4,6,-3,-1,2,-2,4,3,6,7,-2,3</div>
+                    </div>
+                    <div class="text m-b-10">Pending</div>
+                    <h3 class="m-b-0">167
+                      <i class="material-icons">trending_down</i>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div class="table-responsive">
+                <table id="tableExport" class="display table table-hover table-checkable order-column width-per-100">
+                  <thead>
+                    <tr>
+                      <th class="center">User</th>
+                      <th class="center">Opened By</th>
+                      <th class="center">Email</th>
+                      <th class="center">Subject</th>
+                      <th class="center">Status</th>
+                      <th class="center">Assign To</th>
+                      <th class="center">Date</th>
+                      <th class="center">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user1.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-green">Closed</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user2.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-red">Open</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user3.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-purple">Pending</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user4.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-green">Closed</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user5.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-red">Open</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user6.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-green">Closed</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user7.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-red">Open</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user8.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-purple">Pending</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user9.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-green">Closed</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user10.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-red">Open</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user6.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-red">Open</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user5.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-green">Closed</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user4.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-red">Open</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user3.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-purple">Pending</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user2.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-green">Closed</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="table-img center">
+                        <img src="assets/images/user/user1.jpg" alt="">
+                      </td>
+                      <td class="center">Jens Brincker</td>
+                      <td class="center">test@example.com</td>
+                      <td class="center">Image not Proper</td>
+                      <td class="center">
+                        <div class="badge col-red">Open</div>
+                      </td>
+                      <td class="center">John Doe</td>
+                      <td class="center">27/05/2016</td>
+                      <td class="center">
+                        <a href="merchants.html" class="btn btn-tbl-edit">
+                          <i class="material-icons">create</i>
+                        </a>
+                        <a href="merchants.html" class="btn btn-tbl-delete">
+                          <i class="material-icons">delete_forever</i>
+                        </a>
+                      </td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr>
+                      <th class="center">User</th>
+                      <th class="center">Opened By</th>
+                      <th class="center">Email</th>
+                      <th class="center">Subject</th>
+                      <th class="center">Status</th>
+                      <th class="center">Assign To</th>
+                      <th class="center">Date</th>
+                      <th class="center">Action</th>
+                    </tr>
+                  </tfoot>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="assets/js/app.min.js"></script>
+  <script src="assets/js/table.min.js"></script>
+  <script src="assets/js/admin.js"></script>
+  <script src="assets/js/bundles/export-tables/dataTables.buttons.min.js"></script>
+  <script src="assets/js/bundles/export-tables/buttons.flash.min.js"></script>
+  <script src="assets/js/bundles/export-tables/jszip.min.js"></script>
+  <script src="assets/js/bundles/export-tables/pdfmake.min.js"></script>
+  <script src="assets/js/bundles/export-tables/vfs_fonts.js"></script>
+  <script src="assets/js/bundles/export-tables/buttons.html5.min.js"></script>
+  <script src="assets/js/bundles/export-tables/buttons.print.min.js"></script>
+  <script src="assets/js/pages/apps/support.js"></script>
+</body>
+</html>
